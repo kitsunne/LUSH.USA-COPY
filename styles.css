@@ -1,0 +1,1077 @@
+@import url(//db.onlinewebfonts.com/c/12cd97b9e26874bacc881756e3d9921b?family=Handwritten);
+
+html,
+body {
+  font-family: "Helvetica Neue", -apple-system, -windows-system,
+    BlinkMacSystemFont, Segoe UI, Roboto, Arial, Noto Sans, sans-serif;
+  height: 100%;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+}
+nav {
+  top: 0;
+  position: fixed;
+  z-index: 40;
+}
+main {
+  position: relative;
+}
+
+.utility-nav {
+  background-color: #323232;
+  height: 47px;
+  display: block;
+  text-align: end;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding-right: 50px;
+  align-items: center;
+  padding-top: 9px;
+  margin-bottom: 70px;
+}
+
+#order {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  filter: brightness(0) invert(1);
+  margin-right: 5px;
+}
+
+#speech-bubble {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  filter: brightness(0) invert(1);
+  margin-right: 5px;
+}
+
+#location {
+  width: 30px;
+  height: 29px;
+  vertical-align: middle;
+  filter: brightness(0) invert(1);
+  margin-right: 5px;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+.utility-navlinks {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+  margin-right: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.utility-navlinks:hover {
+  text-decoration: underline;
+}
+
+.container-header {
+  position: relative;
+  background-color: black;
+  height: 74px;
+  margin-right: 0;
+  margin-top: 9px;
+  width: 1349px;
+  border-bottom: 0.2px solid white;
+}
+
+.container-navbar {
+  background-color: black;
+  display: flexbox;
+  height: 74px;
+  margin: 0 104px;
+  padding: 18px 0;
+  text-align: start;
+  border-bottom: 0.2px solid white;
+}
+
+#nav-logo {
+  vertical-align: middle;
+}
+
+.row-header-items {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 50px;
+}
+
+.row-links {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bolder;
+  margin-left: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.row-links:hover {
+  text-decoration: underline;
+}
+
+.search {
+  display: inline-block;
+
+  margin-left: 80px;
+}
+
+.search-combobox {
+  display: flex;
+}
+
+input::-webkit-input-placeholder {
+  color: white;
+  background: black;
+}
+
+input {
+  background-color: #000;
+  border: 1px solid #979797;
+  border-radius: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: white;
+  font-size: 16px;
+  padding: 10px 10px 10px 42px;
+  width: 320px;
+}
+input:hover {
+  border-top: 1px solid blue;
+  border-bottom: 1px solid blue;
+  border-left: 1px solid blue;
+  border-right: 1px solid blue;
+}
+
+.user {
+  display: inline-block;
+  margin-left: 120px;
+}
+
+span {
+  color: white;
+}
+
+.userlinks {
+  font-size: 13px;
+  color: #c5c5c5;
+  text-decoration: none;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.userlinks:hover {
+  text-decoration: underline;
+}
+
+#userbutton {
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+  filter: brightness(0) invert(1);
+}
+
+#shoppingbag {
+  margin-left: 3px;
+  height: 26px;
+  width: 28px;
+  vertical-align: middle;
+  filter: brightness(0) invert(1);
+}
+#lushies {
+  height: 144px;
+  width: 174px;
+}
+
+#charity {
+  height: 144px;
+  width: 174px;
+}
+
+#easter {
+  width: 180px;
+  height: 150px;
+}
+
+.menu-group {
+  background-color: black;
+  text-align: center;
+}
+.column-wrapper {
+  text-decoration: none;
+  text-align: left;
+}
+.add-image {
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-right: 0px;
+  margin-right: -80px;
+}
+.caption {
+  display: block;
+  background-color: #f8eded;
+  padding-top: 10px;
+  width: 174px;
+  flex-direction: column;
+  color: #000;
+  font-size: 14px;
+  font-weight: bolder;
+  text-decoration: underline;
+  margin-top: -10px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+.main-menu {
+  margin-right: 33px;
+}
+.menu-items {
+  display: inline-flex;
+  text-decoration: none;
+}
+
+.dropdownlinks {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  padding-left: 80px;
+}
+.dropdownlinks:hover {
+  text-decoration: underline;
+}
+
+li {
+  list-style-type: none;
+}
+.menu-header {
+  color: #000;
+  font-size: 16px;
+  font-weight: bolder;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+}
+.menu-header-underline {
+  color: #000;
+  font-size: 16px;
+  font-weight: bolder;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  text-decoration: underline;
+}
+
+.menu-links {
+  text-decoration: none;
+  font-size: 16px;
+  color: #eeecec;
+  font-family: Arial, Helvetica Neue, sans-serif;
+  padding: 0 35px;
+}
+
+.menu-links:hover {
+  color: #fff;
+}
+
+.menu-new:hover .column-wrapper {
+  visibility: visible;
+  opacity: 1;
+  display: flex;
+}
+
+.menu-bath:hover .column-wrapper {
+  visibility: visible;
+  opacity: 1;
+  display: flex;
+}
+
+.menu-impact:hover .column-wrapper {
+  visibility: visible;
+  opacity: 1;
+  display: flex;
+}
+.menu-hair:hover .column-wrapper {
+  visibility: visible;
+  opacity: 1;
+  display: flex;
+}
+.menu-face:hover .column-wrapper {
+  visibility: visible;
+  opacity: 1;
+  display: flex;
+}
+.menu-body:hover .column-wrapper {
+  visibility: visible;
+  opacity: 1;
+  display: flex;
+}
+
+.menu-gifts:hover .column-wrapper {
+  visibility: visible;
+  opacity: 1;
+  display: flex;
+}
+.menu-scent:hover .column-wrapper {
+  visibility: visible;
+  opacity: 1;
+  display: flex;
+}
+
+.menu-discover:hover .column-wrapper {
+  visibility: visible;
+  opacity: 1;
+  display: flex;
+}
+.images {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 !important;
+}
+.column-items {
+  padding: 0 !important;
+}
+.column-wrapper {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: flex;
+  height: 300px;
+  background-color: #fff;
+  width: 100vw;
+  z-index: 2;
+  padding-left: 25px;
+  padding-right: 40px;
+  box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.2);
+}
+
+.container-info {
+  height: 40px;
+  background-color: #ffcc00;
+  margin-top: 180px;
+
+  text-align: center;
+}
+.info-1 {
+  padding-top: 6px;
+}
+.infolink {
+  color: #000;
+}
+.infolink:hover {
+  text-decoration: none;
+}
+
+.bolder-text {
+  color: #000;
+  font-weight: bolder;
+}
+
+.blm {
+  display: block;
+  padding-top: 60px;
+  height: 450px;
+  background-position-x: left;
+  background-image: url(https://www.lushusa.com/dw/image/v2/BDMQ_PRD/on/demandware.static/-/Library-Sites-LushSharedLibrary/default/dw71a4e63f/2021/homepage/jan/BlackHistoryMonth-Homepage-1920x450.jpg);
+  text-align: center;
+}
+
+.blm-header-1 {
+  font-size: 45px;
+  color: #fff;
+  margin-bottom: -20px;
+}
+.blm-header-2 {
+  font-size: 33px;
+  color: #fff;
+  letter-spacing: normal;
+}
+
+.button-click {
+  border: 1px solid black;
+  color: #000;
+  background: rgb(218, 217, 217);
+  font-size: 14px;
+  padding: 5px 20px;
+  width: 275px;
+  height: 50px;
+}
+.button-click:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.container-easter {
+  background-color: #fff;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 120px;
+  padding-top: -45px;
+}
+
+.container-product {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  size: 270px 444px;
+  background-color: #fff;
+  padding: 0 20px;
+  margin: 0px;
+}
+
+.heart {
+  position: absolute;
+  margin-left: -30px;
+  width: 30px;
+  height: 30px;
+}
+
+.product-image {
+  width: 200px;
+  height: 200px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.product-tittle {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #757575;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.name-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 19px;
+  font-family: "Lush";
+  color: #000;
+  padding: 0;
+  margin-left: -5px;
+  margin-right: -5px;
+  font-weight: bolder;
+}
+
+.svg-2 {
+  display: block;
+  text-align: center;
+  margin-left: 35px;
+}
+
+.name-link:hover {
+  text-decoration: underline;
+  color: #979797;
+}
+
+.product-tagline {
+  display: block;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 14px;
+  color: #757575;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.product-tagline p {
+  padding-bottom: -10px;
+}
+
+.product-price {
+  margin-top: -70px;
+}
+.add {
+  margin-top: -10px;
+  border: 1px solid black;
+  color: white;
+  background: black;
+  font-size: 14px;
+  width: 245px;
+  height: 45px;
+  margin-bottom: 10px;
+}
+.add:hover {
+  background-color: white;
+  color: black;
+}
+
+.easter {
+  display: block;
+  margin-top: -30px;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://www.lushusa.com/dw/image/v2/BDMQ_PRD/on/demandware.static/-/Library-Sites-LushSharedLibrary/default/dw023980de/2021/homepage/feb/item23.jpg);
+  text-align: center;
+}
+
+.easter-header-1 {
+  padding-top: 100px;
+  font-size: 45px;
+  color: #fff;
+  margin-bottom: -20px;
+}
+.easter-header-2 {
+  font-size: 33px;
+  color: #fff;
+  letter-spacing: normal;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.button-click {
+  margin: 0 10px;
+}
+
+.image-1 {
+  width: 200px;
+  height: 200px;
+  display: block;
+  background-size: contain;
+  background-image: url(https://www.lushusa.com/dw/image/v2/BDMQ_PRD/on/demandware.static/-/Sites-lushcosmetics-export/default/dw07c09eee/images/product/02652_a.jpg?sw=400&sh=400);
+}
+
+.image-1:hover {
+  background-image: url(https://www.lushusa.com/dw/image/v2/BDMQ_PRD/on/demandware.static/-/Sites-lushcosmetics-export/default/dw73448795/images/product/02652_d.jpg?sw=400&sh=400);
+}
+
+.image-2 {
+  width: 200px;
+  height: 200px;
+  display: block;
+  background-size: contain;
+  background-image: url(https://www.lushusa.com/dw/image/v2/BDMQ_PRD/on/demandware.static/-/Sites-lushcosmetics-export/default/dw411ef2eb/images/product/02651_a.jpg?sw=400&sh=400);
+}
+
+.image-2:hover {
+  background-image: url(https://www.lushusa.com/dw/image/v2/BDMQ_PRD/on/demandware.static/-/Sites-lushcosmetics-export/default/dw1ac8ece7/images/product/02651_c.jpg?sw=400&sh=400);
+}
+
+.image-3 {
+  width: 200px;
+  height: 200px;
+  display: block;
+  background-size: contain;
+  background-image: url(https://www.lushusa.com/dw/image/v2/BDMQ_PRD/on/demandware.static/-/Sites-lushcosmetics-export/default/dw7528dbfe/images/product/02664.jpg?sw=400&sh=400);
+}
+
+.image-3:hover {
+  background-image: url(https://www.lushusa.com/dw/image/v2/BDMQ_PRD/on/demandware.static/-/Sites-lushcosmetics-export/default/dwb451711c/images/product/02664_1.jpg?sw=400&sh=400);
+}
+
+.image-4 {
+  width: 200px;
+  height: 200px;
+  display: block;
+  background-size: contain;
+  background-image: url(https://www.lushusa.com/dw/image/v2/BDMQ_PRD/on/demandware.static/-/Sites-lushcosmetics-export/default/dwaddc40dd/images/product/01837.jpg?sw=400&sh=400);
+}
+
+.image-4:hover {
+  background-image: url(https://www.lushusa.com/dw/image/v2/BDMQ_PRD/on/demandware.static/-/Sites-lushcosmetics-export/default/dw973bdb64/images/product/01837_1.jpg?sw=400&sh=400);
+}
+
+.lunar-newyear {
+  background-color: white;
+  height: 500px;
+  padding: 35px 120px;
+  display: flex;
+}
+.new-year {
+  width: 520px;
+  height: 420px;
+  display: flex;
+  padding-left: 45px;
+  flex-direction: column;
+  padding-top: 220px;
+  background-size: cover;
+  background-image: url(https://www.lushusa.com/dw/image/v2/BDMQ_PRD/on/demandware.static/-/Library-Sites-LushSharedLibrary/default/dw6ae7a992/2021/homepage/jan/lny-image.jpg?sw=1440&sfrm=jpg);
+}
+
+.mini-header {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: -5px;
+}
+.mini-subheader {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 35px;
+}
+.shop-link {
+  font-size: 12px;
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.image-5 {
+  width: 200px;
+  height: 200px;
+  display: block;
+  background-size: contain;
+  background-image: url(https://www.lushusa.com/dw/image/v2/BDMQ_PRD/on/demandware.static/-/Sites-lushcosmetics-export/default/dwbcf71e01/images/product/02636.jpg?sw=400&sh=400);
+}
+
+.image-5:hover {
+  background-image: url(https://www.lushusa.com/dw/image/v2/BDMQ_PRD/on/demandware.static/-/Sites-lushcosmetics-export/default/dwd0200fa4/images/product/02636_1.jpg?sw=400&sh=400);
+}
+
+.image-6 {
+  width: 200px;
+  height: 200px;
+  display: block;
+  background-size: contain;
+  background-image: url(https://www.lushusa.com/dw/image/v2/BDMQ_PRD/on/demandware.static/-/Sites-lushcosmetics-export/default/dw036db62e/images/product/60087.jpg?sw=400&sh=400);
+}
+
+.image-6:hover {
+  background-image: url(https://www.lushusa.com/dw/image/v2/BDMQ_PRD/on/demandware.static/-/Sites-lushcosmetics-export/default/dw267f6a2d/images/product/60087_1.jpg?sw=400&sh=400);
+}
+
+.banner {
+  display: flex;
+  text-align: center;
+  padding: 0 120px;
+}
+.banner-item {
+  display: block;
+  width: 1079px;
+  height: 100px;
+  background-color: #dfd9d9;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.bestsellers {
+  background-color: #fff;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 120px;
+  padding-top: -45px;
+}
+
+.container-product-fond-1 {
+  background-color: rgb(88, 66, 25);
+  display: block;
+  align-items: center;
+  height: 444px;
+  width: 270px;
+  padding: 65px 10px;
+  margin: 0px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.container-product-fond-2 {
+  background-color: #db3232ec;
+  color: #fff;
+  font-size: 16px;
+  align-items: center;
+  height: 444px;
+  width: 270px;
+  padding: 65px 10px;
+  margin: 0px;
+}
+
+.image-7 {
+  width: 200px;
+  height: 200px;
+  display: block;
+  background-size: contain;
+  background-image: url(https://www.lushusa.com/dw/image/v2/BDMQ_PRD/on/demandware.static/-/Sites-lushcosmetics-export/default/dw73efbf75/images/product/05563_a.jpg?sw=400&sh=400);
+}
+
+.image-7:hover {
+  background-image: url(https://www.lushusa.com/dw/image/v2/BDMQ_PRD/on/demandware.static/-/Sites-lushcosmetics-export/default/dw9fba2bf8/images/product/05563_b.jpg?sw=400&sh=400);
+}
+
+.image-8 {
+  width: 200px;
+  height: 200px;
+  display: block;
+  background-size: contain;
+  background-image: url(https://www.lushusa.com/dw/image/v2/BDMQ_PRD/on/demandware.static/-/Sites-lushcosmetics-export/default/dw083c909b/images/product/07236_a.jpg?sw=400&sh=400);
+}
+
+.image-8:hover {
+  background-image: url(https://www.lushusa.com/dw/image/v2/BDMQ_PRD/on/demandware.static/-/Sites-lushcosmetics-export/default/dw31129b37/images/product/07236_b.jpg?sw=400&sh=400);
+}
+
+.text {
+  vertical-align: middle;
+  text-align: center;
+  padding: 60px 0;
+  font-family: Helvetica Neue, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Arial, Noto Sans, sans-serif;
+}
+
+.shampoo-bars {
+  height: 330px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.shampoo {
+  text-align: center;
+  padding-top: 30px;
+  height: 230px;
+  width: 1105px;
+  background-size: cover;
+  margin-bottom: 40px;
+  background-image: url(https://www.lushusa.com/dw/image/v2/BDMQ_PRD/on/demandware.static/-/Library-Sites-LushSharedLibrary/default/dw88c8540e/Homepage/july/Naked-article-banner.jpg);
+}
+
+.shampoo-header {
+  font-size: 34px;
+  color: #fff;
+  margin-bottom: -15px;
+}
+.shampoo-subheader {
+  font-size: 28px;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.barlink {
+  font-size: 12px;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.image-9 {
+  width: 200px;
+  height: 200px;
+  display: block;
+  background-size: contain;
+  background-image: url(https://www.lushusa.com/dw/image/v2/BDMQ_PRD/on/demandware.static/-/Sites-lushcosmetics-export/default/dw9e6f7440/images/product/01920.jpg?sw=400&sh=400);
+}
+
+.image-9:hover {
+  background-image: url(https://www.lushusa.com/dw/image/v2/BDMQ_PRD/on/demandware.static/-/Sites-lushcosmetics-export/default/dw09a3c2f3/images/product/01920_2.jpg?sw=400&sh=400);
+}
+
+.less-screen {
+  background-color: white;
+  height: 500px;
+  padding: 10px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.more-bath {
+  width: 520px;
+  height: 420px;
+  display: flex;
+  padding-left: 45px;
+  flex-direction: column;
+  padding-top: 220px;
+  background-size: cover;
+  background-image: url(https://www.lushusa.com/dw/image/v2/BDMQ_PRD/on/demandware.static/-/Library-Sites-LushSharedLibrary/default/dwbe1637ff/2021/homepage/jan/raspberryblower-reusablebubblebar-pdp-hero-2.jpg?sw=1440&sfrm=jpg);
+}
+
+.add-2 {
+  margin-top: -10px;
+  border: 1px solid white;
+  color: white;
+  background: black;
+  font-size: 14px;
+  width: 190px;
+  height: 45px;
+  margin-bottom: 10px;
+}
+.add-2:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.container-product-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  size: 270px 500px;
+  background-color: #fff;
+  padding: 125px 20px 0 0;
+  margin: 0px;
+}
+
+.footer-stories {
+  height: 140px;
+  background-color: #f2f2f2;
+  padding: 15px 0;
+}
+
+.row-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 140px;
+}
+.icons {
+  width: 160px;
+  height: 110px;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 80px;
+  padding-right: 140px !important;
+  background-color: #000;
+  padding-bottom: 60px;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: #757575;
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer-links:hover {
+  text-decoration: underline;
+}
+
+.mini-header-2 {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: -10px;
+  padding-left: 20px;
+  margin-left: 16px;
+}
+
+.input-1::-webkit-input-placeholder {
+  color: #757575;
+  background: white;
+}
+
+.input-1 {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #000;
+  margin-top: 15px;
+  margin-left: 35px;
+  font-size: 16px;
+  padding: 10px 16px 8px;
+  width: 450px;
+  height: 55px;
+}
+.input-1:hover {
+  border-top: 1px solid blue;
+  border-bottom: 1px solid blue;
+  border-left: 1px solid blue;
+  border-right: 1px solid blue;
+}
+
+.label {
+  display: block;
+  color: #fff;
+  margin-right: -10px;
+  margin-left: -35px;
+}
+input.checkbox {
+  display: block;
+  margin: 0;
+  margin-right: -110px;
+}
+.check-box-text {
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  padding: 0;
+  margin-left: -110px;
+  margin-top: 10px;
+}
+
+.add-3 {
+  margin-top: -10px;
+  border: 1px solid white;
+  color: white;
+  background: black;
+  font-size: 14px;
+  width: 270px;
+  height: 45px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 36px;
+}
+.add-3:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.row-btn {
+  display: inline;
+  margin-left: 30px;
+  padding-top: 15px;
+}
+
+.btn-social {
+  margin-top: 10px;
+  padding-top: -10px;
+  margin-right: 2px;
+  width: 25px;
+  height: 25px;
+}
+
+#fb-icon {
+  padding-top: 5px;
+  margin-right: -8px;
+  width: 35px !important ;
+  height: 35px !important;
+}
+.inv {
+  width: 40px;
+  height: 30px;
+  background-color: #fff;
+  border: solid 2px white;
+  border-radius: 10px;
+}
+
+.text-tools {
+  color: white;
+  font-size: 13px;
+}
+
+.btn-links {
+  width: 450px;
+  margin-left: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-option {
+  background-color: #000;
+}
+
+.option-link {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.option-link-2 {
+  font-size: 15px;
+  color: #000;
+  text-decoration: none;
+}
+.option-link:hover {
+  text-decoration: underline;
+}
+.option-link-2:hover {
+  text-decoration: underline;
+}
+
+.span-2 {
+  color: #000;
+}
+
+.site-option {
+  border-top: solid 1px #fff;
+}
+.row-option-1 {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 100px;
+  padding-left: 110px;
+  text-align: left;
+}
+
+.row-option-2 {
+  vertical-align: middle;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 100px;
+  padding-left: 110px;
+  text-align: left;
+  background-color: #f2f2f2;
+}
+
+.site-option-2 {
+  background-color: #f2f2f2;
+}
+.copyright {
+  vertical-align: middle;
+  font-size: 10px;
+  height: 32px;
+  border-top: solid 1px #757575;
+}
+.copyright-text {
+  padding-left: 108px;
+}
+.c-t-links {
+  color: #000;
+  text-decoration: underline;
+}
+.c-t-links:hover {
+  color: #757575;
+}
+.help-button {
+  display: flex;
+  position: fixed !important;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 10px;
+  background-color: #262626 !important;
+  padding: 0.92857rem 1.57143rem;
+  border-radius: 999rem;
+  letter-spacing: 0.6;
+  font-size: 1.07143rem;
+  border: none;
+  font-weight: 700;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.help-button:hover {
+  border: solid 3px grey;
+}
+
+#help-icon {
+  padding: 0;
+  margin-bottom: -2px;
+  margin-right: 5px;
+  width: 18px;
+  height: 18px;
+  filter: brightness(0) invert(1);
+}
+
+@font-face {
+  font-family: "Lush";
+  src: url("/fonts/Lush.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
